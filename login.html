@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+
+    <style>
+        .letra{
+            font-family: 'Bowlby One SC', cursive;
+        }
+        .body{
+            background-color: silver;
+        }
+        
+    
+    
+    </style>
+
+    <title>Login | Trabalho</title>
+  </head>
+  <body class="body">
+      <br>
+      <br>
+      <br>
+      <div class="container">
+            <div class="row">
+                    <div class="col-md-6 offset-md-3" style="
+                    background-color: white; border: 2px solid #B22222; ">
+
+                                <center><img src="data:image/png;base64,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"
+                                     width="100px" height="100px"></center>
+                                <center><h1 class="letra">Login ADM</h1></center>
+                        
+                        <hr>
+                        <div class="content">
+                                <form method="POST" name="form1" action="destino.php">
+                                        <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span><img src="https://cdn1.iconfinder.com/data/icons/circle-outlines/512/User_Account_Avatar_Person_Profile_Login_Human-512.png" width="38px" height="38px"></span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="Nome de Usuario" name="login" maxlength="30">
+                                                
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhFCdLfX4-ITIDyd_ZIrakhb2dEcmWfbb5vHjatmahN5yb-Nc4" width="38px" height="38px"></span>
+                                                </div>
+                                                <input type="password" class="form-control" placeholder="Senha" name="senha" maxlength="20">
+                                            </div>
+                                            <center><div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Manter Conectado</label>
+                                                  </div></center>
+                                        <button type="Submit" value=" enviar " class="btn btn-outline-danger btn-lg btn-block letra">Login</button>
+                                        <br>
+                                        <hr>
+                                        <center><p style="font-size:20px;">Esqueceu a senha?  <a href="recuperarsenha.html"><button type="button" class="btn btn-outline-danger">Clique aqui</button></a></p></center>
+                                      </form>
+                                      <br>
+
+
+                        </div>
+                            
+                    </div>
+                  </div>
+            
+
+
+      </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
